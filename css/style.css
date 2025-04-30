@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(../imgs/5630939.jpg);   
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+navbar a{
+    text-decoration: none;
+  color: #212529;  
+}
+
+
+navbar{
+  background: linear-gradient(90deg,rgba(36, 0, 2, 0.99) 0%, rgba(121, 9, 82, 1) 35%, rgb(4, 86, 145) 100%);
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  border-radius: .625rem;
+  padding: 20px 40px 20px 40px;
+}
+
+.bg-welcome{
+    background: linear-gradient(90deg,rgba(36, 0, 2, 99) 0%, rgba(121, 9, 82, 1) 35%, rgba(4, 86, 145 , 100) 100%);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    border-radius: .625rem;
+    padding: 30px;
+    
+}
+
+
+
+.center-img{
+    border: 2px solid;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    border-radius: 100vh;
+    background: url(../imgs/5153829.jpg);   
+
+}
+
+.input-error {
+  border: 2px solid red !important;
+}
+
+
+.input-icon {
+    position: relative;
+  }
+
+
+  
+  .input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    transition: color 0.3s;
+  }
+  
+  .input-icon input {
+    padding-left: 35px;
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .input-icon input:hover + i,
+  .input-icon input:focus + i {
+    color: #007bff;
+  }
+  
